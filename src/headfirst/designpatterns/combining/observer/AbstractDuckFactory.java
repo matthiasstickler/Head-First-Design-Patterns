@@ -1,5 +1,7 @@
 package headfirst.designpatterns.combining.observer;
-
+/**
+ * wsefge
+ */
 public abstract class AbstractDuckFactory {
  
 	public abstract Quackable createMallardDuck();
