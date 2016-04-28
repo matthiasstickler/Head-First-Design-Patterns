@@ -1,6 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
- * wsefge
+ * Test
  */
 public abstract class AbstractDuckFactory {
  
