@@ -1,6 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
- * Test
+ * Test 1
  */
 public abstract class AbstractDuckFactory {
  
