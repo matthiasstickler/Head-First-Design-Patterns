@@ -20,6 +20,7 @@ public class DuckCall implements Quackable {
 	}
 	/**
 	 * Register to the observer
+	 * @param observer
 	 */
 	public void registerObserver(Observer observer) {
 		observable.registerObserver(observer);

@@ -1,7 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
- * 
- * @author Matthias Stickler
+ * Abstract Class for all Duckfactories
  */
 public abstract class AbstractDuckFactory {
 	// Specific Ducks

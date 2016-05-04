@@ -1,13 +1,28 @@
 package headfirst.designpatterns.combining.observer;
-
+/**
+ * "Main" Class for our output in the console
+ */
 public class DuckSimulator {
+	/**
+	 * Main method Implements a Ducksimulator object
+	 * and an object for the AbstractDuckFactory CountingDuckFactory
+	 */
 	public static void main(String[] args) {
 		DuckSimulator simulator = new DuckSimulator();
 		AbstractDuckFactory duckFactory = new CountingDuckFactory();
  
 		simulator.simulate(duckFactory);
 	}
-  
+	/**
+	 * At First we create the ducks and a goose.
+	 * Second we add the ducks and the goose to a Flock.
+	 * After that we create a Flock of Mallardducks and
+	 * add this Flock to our first Flock.
+	 * Next we register our flockofducks to the Quakologist
+	 * observer, simulate the quacks.
+	 * At last we count the quacks and print them out.
+	 * @param AbstractDuckFactory
+	 */
 	void simulate(AbstractDuckFactory duckFactory) {
   
 		Quackable redheadDuck = duckFactory.createRedheadDuck();
@@ -47,7 +62,10 @@ public class DuckSimulator {
 		                   QuackCounter.getQuacks() + 
 		                   " times");
 	}
- 
+	/**
+	 * Simulate the quacks of our ducks.
+	 * @param duck(s)
+	 */
 	void simulate(Quackable duck) {
 		duck.quack();
 	}
