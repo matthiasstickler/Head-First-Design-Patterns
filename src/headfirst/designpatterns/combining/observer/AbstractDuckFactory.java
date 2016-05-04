@@ -1,9 +1,10 @@
 package headfirst.designpatterns.combining.observer;
 /**
- * Test 12
+ * 
+ * @author Matthias Stickler
  */
 public abstract class AbstractDuckFactory {
- 
+	// Specific Ducks
 	public abstract Quackable createMallardDuck();
 	public abstract Quackable createRedheadDuck();
 	public abstract Quackable createDuckCall();
