@@ -1,5 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
+ * Factory-Pattern
  * Specific Duckfactory which counts every Quack
  * comming from either Mallard, Redhead or Rubberduck.
  * Additionally it counts the Duckcall too

@@ -1,5 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
+ * Strategy-Pattern
  * Duck Call
  * This is not a Duck but still produces the quack
  */

@@ -1,5 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
+ * Strategy-Pattern
  * Readheaduck 
  */
 public class RedheadDuck implements Quackable {

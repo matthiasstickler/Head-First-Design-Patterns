@@ -1,5 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
+ * Factory-Pattern
  * Abstract Class for all Duckfactories
  */
 public abstract class AbstractDuckFactory {

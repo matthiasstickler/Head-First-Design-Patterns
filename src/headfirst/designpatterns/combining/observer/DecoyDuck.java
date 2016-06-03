@@ -1,5 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
+ * Strategy-Pattern
  * Decoy Duck
  * This type of duck doesn't quack so it produces silence.
  * 

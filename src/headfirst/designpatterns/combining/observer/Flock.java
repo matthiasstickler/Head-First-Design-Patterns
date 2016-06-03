@@ -3,7 +3,8 @@ package headfirst.designpatterns.combining.observer;
 import java.util.Iterator;
 import java.util.ArrayList;
 /**
- * The Flock iterates through every duck 
+ * Strategy-Pattern
+ * The Flock iterates through every duck and lists them
  */
 public class Flock implements Quackable {
 	ArrayList<Quackable> ducks = new ArrayList<Quackable>();

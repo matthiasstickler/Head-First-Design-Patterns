@@ -3,6 +3,7 @@ package headfirst.designpatterns.combining.observer;
 import java.util.Iterator;
 import java.util.ArrayList;
 /**
+ * Observer-Pattern
  * The Observable Class provides all the methods our observers need
  */
 public class Observable implements QuackObservable {

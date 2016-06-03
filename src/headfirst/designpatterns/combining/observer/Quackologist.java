@@ -1,5 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
+ * Observer-Pattern
  * Specific observer to display our quacks
  */
 public class Quackologist implements Observer {

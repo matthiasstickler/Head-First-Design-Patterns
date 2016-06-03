@@ -1,5 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
+ * Strategy-Pattern
  * The goose is not a duck so it doesn't quack
  */
 public class Goose {

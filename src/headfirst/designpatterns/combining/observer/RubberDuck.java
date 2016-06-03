@@ -1,5 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
+ * Strategy-Pattern
  * The Rubberduck squeaks instead of quack
  */
 public class RubberDuck implements Quackable {

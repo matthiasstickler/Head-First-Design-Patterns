@@ -1,5 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
+ * Strategy-Pattern
  * The MallardDuck does quack
  */
 public class MallardDuck implements Quackable {

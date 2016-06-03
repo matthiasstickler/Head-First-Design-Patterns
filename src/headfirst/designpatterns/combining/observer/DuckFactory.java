@@ -1,5 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
+ * Factory-Pattern
  * Specific Duckfactory
  * Just creates Ducks
  */

@@ -1,5 +1,6 @@
 package headfirst.designpatterns.combining.observer;
 /**
+ * Observer-Pattern
  * Interface to observe our quacks
  */
 public interface QuackObservable {
